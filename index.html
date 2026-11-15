@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Julius Emmanuel Mkenda — Freelance Web & App Developer, UI/UX Designer</title>
+<meta name="description" content="Freelance web and app developer and UI/UX designer working remotely.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<button id="cord" aria-label="Pull to switch between light and dark"><span class="ln"></span><span class="bl"></span></button>
+<header><div class="wrap">
+  <nav aria-label="Main">
+    <a href="#home">Home</a><a href="#work" data-door="0">Web Development</a><a href="#work" data-door="1">App Development</a><a href="#work" data-door="2">UI/UX Design</a><a href="#work" data-door="3">Graphic Design</a><a href="#story">My story</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="clock" aria-label="Local time">Local time <b id="tm">—</b>·<span id="dt" style="margin-left:8px"></span></div>
+</div></header>
+
+<main id="home">
+<div class="wrap">
+  <div class="hero">
+    <div class="hl">
+      <div class="tag">Independent Freelancer</div>
+      <h1 aria-label="Hi, I’m Julius Emmanuel."><span class="w" aria-hidden="true"><span style="--d:0">Hi,</span></span> <span class="w" aria-hidden="true"><span style="--d:1">I’m</span></span> <span class="w" aria-hidden="true"><span style="--d:2">Julius.</span></span></h1>
+      <div class="iam">I am a</div>
+      <div class="pad"><div class="card"><span class="word" id="word" aria-live="polite">Web Developer</span><span class="n mono" id="wn">01 / 04</span></div></div>
+      <div class="row"><button class="pill" data-hire>Hire me <i>→</i></button><a class="ghost" href="#work">See my work</a></div>
+    </div>
+    <div class="ph">
+      <!-- Replace this src with Julius's photo (a portrait with a plain background works best) -->
+      <img id="photo" alt="Portrait of Julius Emmanuel Mkenda" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 520'><rect width='400' height='520' fill='%23cfc9c3'/><circle cx='200' cy='180' r='85' fill='%23989089'/><path d='M30 520c0-120 80-200 170-200s170 80 170 200z' fill='%23989089'/></svg>">
+      <button class="ab" id="abBtn">My ability card</button>
+    </div>
+  </div>
+  <div class="bar mono"><span>Available for work</span><span>Remote-first, worldwide</span><span>Scroll to explore ↓</span></div>
+</div>
+
+<section id="work">
+  <h2 class="rv">Magic happens behind the doors</h2>
+  <div class="doors" id="doors">
+    <button class="dw" style="--c:var(--c1)" aria-expanded="false" aria-controls="pn"><span class="in"><span class="lf"><span class="plq">Web<br>Developer</span><span class="cue">Click to enter</span><span class="hdl"></span><span class="key"></span></span></span></button>
+    <button class="dw" style="--c:var(--c2)" aria-expanded="false" aria-controls="pn"><span class="in"><span class="lf"><span class="plq">App<br>Developer</span><span class="cue">Click to enter</span><span class="hdl"></span><span class="key"></span></span></span></button>
+    <button class="dw" style="--c:var(--c3)" aria-expanded="false" aria-controls="pn"><span class="in"><span class="lf"><span class="plq">UI/UX<br>Designer</span><span class="cue">Click to enter</span><span class="hdl"></span><span class="key"></span></span></span></button>
+    <button class="dw" style="--c:var(--c4)" aria-expanded="false" aria-controls="pn"><span class="in"><span class="lf"><span class="plq">Graphic<br>Designer</span><span class="cue">Click to enter</span><span class="hdl"></span><span class="key"></span></span></span></button>
+    <div class="panel" id="pn" role="region" aria-label="Skill details" hidden></div>
+  </div>
+  <div class="floor"></div>
+</section>
+
+<section id="story"><div class="wrap sg">
+  <div class="sl">
+    <div class="tag">My backgroundstory</div>
+    <h2>Let’s go back in time.</h2>
+    <span class="yr" id="yr">2026</span>
+    <div class="mono" id="rng" style="margin-top:22px">Oct 2026 — Now</div>
+    <div class="pg"><b id="cnt" style="font-weight:500">01</b><span class="mono">/ 02</span><div class="tr"><i id="prog"></i></div></div>
+  </div>
+  <div class="tl">
+    <div class="ti act" data-year="2026" data-range="Oct 2026 — Now"><div class="mono">Oct 2026 — Now</div><h3>Independent freelancer</h3><p class="sb">Working for myself, remote-first</p><p class="d">Websites, iOS apps, interfaces and brand creatives, carried from the first sketch to launch.</p><p class="d" style="margin-top:10px">Working directly with clients, wherever they are.</p></div>
+    <div class="ti" data-year="2023" data-range="2023 — Now"><div class="mono">2023 — Now</div><h3>BSc Information Technology</h3><p class="sb">Institute of Finance Management (IFM)</p><p class="d">Studying how software is built and used, while turning what I learn into real projects.</p></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="tag rv">Available for new work</div>
+  <h2 class="rv">Need something built?<span>Let’s make it happen.</span></h2>
+  <p class="lead rv">I’m available for freelance work: websites, apps, interfaces and visual content. Tell me what you need and I’ll get back to you within a day.</p>
+  <div class="row rv"><button class="pill" data-hire>Hire me <i>→</i></button><a class="ghost" href="#work">See my work</a></div>
+  <div class="fg">
+    <div><h4>Work</h4><ul class="two"><li><a href="#work" data-door="0">Web Development</a></li><li><a href="#work" data-door="1">App Development</a></li><li><a href="#work" data-door="2">UI/UX Design</a></li><li><a href="#work" data-door="3">Graphic Design</a></li></ul></div>
+    <div><h4>Navigate</h4><ul><li><a href="#home">Home</a></li><li><a href="#story">My story</a></li><li><a href="#contact" data-hire>Contact</a></li></ul></div>
+    <div><h4>Status</h4><ul><li>Available for work</li><li>Remote-first, worldwide</li><li>Local time <span id="tm2"></span></li></ul></div>
+  </div>
+  <div class="cp"><span>© 2026 Julius Emmanuel Mkenda. Designed and built by Julius Emmanuel Mkenda.</span><a href="#home">Back to top ↑</a></div>
+</div></section>
+</main>
+
+<dialog id="dlg" aria-labelledby="dt1">
+  <div id="form">
+    <h2 id="dt1">What do you need?</h2>
+    <p class="mono" style="margin:0">I reply within one business day</p>
+    <div class="ch" id="chips"></div>
+    <input type="text" id="nm" placeholder="Your name" aria-label="Your name">
+    <textarea id="msg" placeholder="Tell me a little about the project" aria-label="Project details"></textarea>
+    <div class="da"><button class="ghost" id="cancel" type="button">Cancel</button><button class="pill" id="send" type="button">Write the email <i>→</i></button></div>
+  </div>
+  <div id="done" hidden>
+    <h2>Almost there</h2>
+    <p>Your email app should open with your message ready. Press send there and I’ll reply within one business day.</p>
+    <p>Email app didn’t open? Write to <a id="mail" href="#"></a>.</p>
+    <div class="da"><button class="ghost" id="close2" type="button">Close</button></div>
+  </div>
+</dialog>
+<dialog id="abd" aria-labelledby="abt"><h2 id="abt">My ability card</h2><p class="mono" style="margin:0">Four skills, one freelancer</p><dl id="abl"></dl><div class="da" style="margin-top:22px"><button class="ghost" id="abx" type="button">Close</button></div></dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
